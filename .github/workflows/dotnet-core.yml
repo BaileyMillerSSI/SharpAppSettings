@@ -19,5 +19,18 @@ jobs:
       run: dotnet restore
     - name: Build
       run: dotnet build --configuration Release --no-restore
+
+  test:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    steps:
+    - uses: actions/checkout@v2
+    - name: Test .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 5.0.100
     - name: Test
       run: dotnet test --no-restore --verbosity normal
+
