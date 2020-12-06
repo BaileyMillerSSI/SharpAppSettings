@@ -31,10 +31,7 @@ public class TestSettings
     "NumberValue": 1,
     "BooleanValue": false,
     "ArrayOfNumbersValue": [ 0, 1, 2, 3 ],
-    "ArrayOfStringsValue": [ "a", "b", "c" ],
-    "NestedValue": {
-      "StringValue": "nested value"
-    }
+    "ArrayOfStringsValue": [ "a", "b", "c" ]
   }
 }
 ```
